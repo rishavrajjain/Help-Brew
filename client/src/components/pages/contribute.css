@@ -1,0 +1,149 @@
+section {
+    padding: 100px 0;
+    overflow: hidden;
+  }
+  
+  .section-bg {
+    background-color: #f9f8ff;
+  }
+  
+  .section-title {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  
+  .section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+  }
+  
+  .section-title h2::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #5846f9;
+    bottom: 0;
+    left: calc(50% - 25px);
+  }
+  
+  .section-title p {
+    margin-bottom: 0;
+  }
+/*--------------------------------------------------------------
+# contribute
+--------------------------------------------------------------*/
+.contribute .box {
+    padding: 20px;
+    background: #fff;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contribute h3 {
+    font-weight: 400;
+    margin: -20px -20px 20px -20px;
+    padding: 20px 15px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #2c4964;
+    background: #f8f8f8;
+  }
+
+  
+  
+  .contribute h4 {
+    font-size: 36px;
+    color: #5846f9;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .contribute h4 sup {
+    font-size: 20px;
+    top: -15px;
+    left: -3px;
+  }
+  
+  .contribute h4 span {
+    color: #bababa;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  
+  .contribute ul {
+    padding: 0;
+    list-style: none;
+    color: #a0a0a0;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+  }
+  
+  .contribute ul li {
+    padding-bottom: 16px;
+  }
+  
+  .contribute ul i {
+    color: #5846f9;
+    font-size: 18px;
+    padding-right: 4px;
+  }
+  
+  .contribute ul .na {
+    color: #ccc;
+    text-decoration: line-through;
+  }
+  
+  .contribute .btn-wrap {
+    margin: 20px -20px -20px -20px;
+    padding: 20px 15px;
+    background: #f8f8f8;
+    text-align: center;
+  }
+  
+  .contribute .btn-buy {
+    background: linear-gradient(42deg, #5846f9 0%, #7b27d8 100%);
+    display: inline-block;
+    padding: 10px 35px;
+    border-radius: 4px;
+    color: #fff;
+    transition: none;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    transition: 0.3s;
+  }
+  
+  .contribute .btn-buy:hover {
+    background: linear-gradient(180deg, #5846f9 0%, #7b27d8 100%);
+  }
+  
+  .contribute .featured h3 {
+    color: #fff;
+    background: #5846f9;
+  }
+  
+  .contribute .advanced {
+    width: 200px;
+    position: absolute;
+    top: 18px;
+    right: -68px;
+    transform: rotate(45deg);
+    z-index: 1;
+    font-size: 14px;
+    padding: 1px 0 3px 0;
+    background: #5846f9;
+    color: #fff;
+  }
+  
